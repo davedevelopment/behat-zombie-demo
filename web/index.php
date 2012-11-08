@@ -17,7 +17,7 @@
 
         $("button").click(function(e) {
             e.preventDefault();
-            $(this).after("Woop Woop");
+            $(this).after("Woop" + " " + "Woop"); // broken up to avoid false postive
         });
 
     </script>
