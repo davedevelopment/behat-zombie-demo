@@ -1,0 +1,8 @@
+default:
+    extensions:
+        Behat\MinkExtension\Extension:
+            base_url:     http://localhost:9898
+            goutte: ~
+            default_session: goutte
+            javascript_session: zombie
+            zombie: ~
