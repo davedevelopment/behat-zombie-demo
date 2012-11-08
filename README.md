@@ -32,7 +32,7 @@ Either setup the web dir with your favourite web server (be sure to change the
 base_url in `behat.yml.dist`, or use PHP >5.4
 
 ```
-php -S localhost:9898 web/index.php
+> php -S localhost:9898 web/index.php
 PHP 5.4.8 Development Server started at Thu Nov  8 12:18:02 2012
 Listening on http://localhost:9898
 Document root is /home/davem/src/behat-zombie-demo
